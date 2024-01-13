@@ -29,13 +29,12 @@ h1 {
   position: fixed;
   height: 90px;
 }
-@media screen and (min-width: 1900px) {
-.nav-bar{
-  background-color: red;
-  
+@media(max-width: 768px){
+  .nav-bar{
+display: none;
+opacity: 0;
+  }
 }
-}
-
 ul li {
   display: flex;
   align-items: center;
@@ -58,15 +57,33 @@ i {
   margin-top: 10vh;
   margin-bottom: 260px;
 }
+@media(max-width: 768px){
+  .sobre-mi{
+ font-size: 1.7rem;
+ text-align: center;
+  }
+}
 .container-sobreMi {
   display: flex;
   align-items: center;
   gap: 30px;
 }
+@media(max-width: 768px){
+  .container-sobreMi{
+display: flex;
+flex-direction: column;
+justify-content: center;
+  }
+}
 .img-perfil {
   border-radius: 50%;
   height: 500px;
   padding-left: 100px;
+}
+@media(max-width: 768px){
+  .img-perfil{
+  height: 400px;
+  }
 }
 
 .section-tecnologias {
@@ -88,9 +105,24 @@ i {
   grid-template-columns: repeat(3, 300px);
 }
 
+@media(max-width: 768px){
+  .container-tecnologias{
+  display: flex;
+  flex-direction: column;
+  }
+}
 .certificados {
   display: flex;
   justify-content: center;
+}
+@media(max-width: 768px){
+  .certificados{
+ display: flex;
+ flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 1300px;
+  }
 }
 .img-certificados {
   margin: 20px;
@@ -112,6 +144,13 @@ i {
   grid-template-columns: repeat(2, 1fr);
   border-radius: 20px black;
 }
+@media(max-width: 768px){
+  .container-proyectos{
+ display: flex;
+ flex-direction: column;
+ gap:70px;
+  }
+}
 .container-proyectos a {
   display: flex;
   flex-direction: column;
@@ -122,18 +161,22 @@ i {
 }
 .container-proyectos a:hover{
     opacity: .4;
-    
 }
 
 .imagenes-proyectos {
   width: 80%;
   height: 80%;
-border: #2d134e;
 }
 .section-contacto{
   display: flex;
   flex-direction: column;
  justify-content: center;
+}
+@media(max-width: 768px){
+  .section-contacto{
+ display: flex;
+ flex-direction: column;
+  }
 }
  h2 {
   font-size: 3em;
@@ -151,6 +194,7 @@ border: #2d134e;
 display: flex;
 flex-direction: column;
 justify-content: center;
+text-align: center;
 }
 .container-logos-contacto{
   display: flex;
@@ -158,6 +202,14 @@ justify-content: center;
   justify-content: center;
   flex-direction: row;
   gap: 90px;
+}
+@media(max-width: 768px){
+  .container-logos-contacto{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+  }
 }
 .container-text{
   
