@@ -2,6 +2,11 @@
 @import url("https://css.gg/css");
 * {
   font-family: "Inter", sans-serif;
+
+}
+html body {
+width: 100%;  
+overflow-x: hidden;
 }
 body {
   background-color: #b394f1;
