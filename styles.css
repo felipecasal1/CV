@@ -29,6 +29,13 @@ h1 {
   position: fixed;
   height: 90px;
 }
+@media screen and (min-width: 1900px) {
+.nav-bar{
+  background-color: red;
+  
+}
+}
+
 ul li {
   display: flex;
   align-items: center;
@@ -43,6 +50,7 @@ i {
   margin-right: 10px;
   margin-top: 3px;
 }
+
 .sobre-mi {
   max-width: 60%;
   font-size: 2em;
@@ -67,9 +75,7 @@ i {
   align-items: center;
   scroll-margin-top: 10ex;
 }
-.section-tecnologias h2 {
-  font-size: 3em;
-}
+
 .tecnologias {
   display: flex;
   flex-direction: column;
@@ -99,11 +105,7 @@ i {
     scroll-margin-top: 15ex;
 }
 
-.section-proyectos h2 {
-  font-size: 3em;
-  text-align: center;
 
-}
 
 .container-proyectos {
   display: grid;
@@ -127,5 +129,37 @@ i {
   width: 80%;
   height: 80%;
 border: #2d134e;
+}
+.section-contacto{
+  display: flex;
+  flex-direction: column;
+ justify-content: center;
+}
+ h2 {
+  font-size: 3em;
+  text-align: center;
 
 }
+.section-contacto a {
+  scroll-margin-top: 10ex;
+  text-decoration: none;
+  color: #2d134e;
+  font-size: 20px;
+
+}
+.container-textos{
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.container-logos-contacto{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 90px;
+}
+.container-text{
+  
+}
+

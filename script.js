@@ -1,13 +1,21 @@
 let hover = document.getElementsByClassName("hover-proyectos")
 
-hover.forEach(img =>{
-    img.addEventListener("mouseover", () =>{
-        agregarTexto()
-    })
+let elementosHover = [...hover]
+console.log(elementosHover)
+
+
+
+elementosHover.forEach((el) => {
+el.addEventListener("click", () =>{
+    agregarTexto()
 })
 
-function agregarTexto(){
-    let nuevoImg =  `Entrar a la Pagina `
-    hover.innerHTML += nuevoImg
 
+})
+
+
+
+
+function agregarTexto() {
+    alert("se te redirigira a este proyecto")
 }
