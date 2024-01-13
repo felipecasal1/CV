@@ -6,7 +6,7 @@
 }
 html body {
 width: 100%;  
-overflow-x: hidden;
+overflow-x: hiddeng;
 }
 body {
   background-color: #b394f1;
@@ -87,7 +87,7 @@ justify-content: center;
 }
 @media(max-width: 768px){
   .img-perfil{
-  height: 400px;
+  height: 200px;
   }
 }
 
@@ -126,7 +126,7 @@ justify-content: center;
  flex-direction: column;
 justify-content: center;
 align-items: center;
-width: 1300px;
+width: 800px;
   }
 }
 .img-certificados {
