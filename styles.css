@@ -1,8 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Oswald:wght@300&display=swap");
 @import url("https://css.gg/css");
 * {
-  font-family: "Inter", sans-serif;
-
+margin: 0px;
 }
 html body {
 width: 100%;  
@@ -199,8 +198,10 @@ width: 800px;
 display: flex;
 flex-direction: column;
 justify-content: center;
-text-align: center;
+text-align: center; 
+font-size: 2em;
 }
+
 .container-logos-contacto{
   display: flex;
   align-items: center;
