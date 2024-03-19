@@ -30,7 +30,7 @@ h1 {
 
 .nav-bar {
   display: flex;
-  gap: 60px;
+  gap: 30px;
   margin: 0px 0px 0px 200px;
   background: rgb(105, 45, 170);
   background: linear-gradient(
@@ -107,6 +107,7 @@ justify-content: center;
   scroll-margin-top: 10ex;
 }
 
+
 .tecnologias {
   display: flex;
   flex-direction: column;
@@ -125,9 +126,15 @@ justify-content: center;
   flex-direction: column;
   }
 }
+.certificados-title{
+  text-align: center;
+  padding: 40px;
+}
 .certificados {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 @media(max-width: 768px){
   .certificados{
@@ -227,7 +234,3 @@ font-size: 2em;
  justify-content: center;
   }
 }
-.container-text{
-  
-}
-
