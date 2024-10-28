@@ -19,3 +19,4 @@ el.addEventListener("click", () =>{
 function agregarTexto() {
     alert("se te redirigira a este proyecto")
 }
+
